@@ -57,15 +57,22 @@ button:nth-child(4n) {
 }
 
 button:hover {
-  background-color: rgb(58, 120, 192);
+  background-color: rgb(44, 114, 196);
 }
 
 button:nth-child(4n):hover {
-  background-color: rgb(217, 134, 7);
+  background-color: rgb(223, 136, 0);
 }
 
 button:active {
   transform: scale(0.95);
+}
+
+button:nth-child(15){
+  background-color: rgb(4, 194, 4);
+}
+button:nth-child(15):hover{
+  background-color: rgb(0, 174, 0);
 }
 
 button:nth-child(17) {
@@ -73,7 +80,7 @@ button:nth-child(17) {
 }
 
 button:nth-child(17):hover {
-  background-color: rgb(192, 57, 43);
+  background-color: rgb(211, 56, 40);
 }
 
 footer {
